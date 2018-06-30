@@ -1,0 +1,100 @@
+/* style for the full page */
+html{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color:white;
+}
+
+/* Style for the header on all pages */
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+header h1 {
+    margin: 10px;;
+}
+.nameAndIcon{
+    display:flex;
+    margin-bottom: 10px;
+}
+#mikeIcon{
+    border-radius: 50%;
+    height: 10vh;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+}
+.navButton{
+    background-color: rgba(60, 60, 60, .9);
+    padding: 6px;
+    margin: 6px;
+    border-radius: 5px;
+}
+.navButton:link {
+    color: white;
+}
+.navButton:visited {
+    color: white;
+}
+.navButton:hover {
+    color: white;
+}
+.navButton:active {
+    color: white;
+}
+/* style for the main section */
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-image: url('./img/darkBoard.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.mainContainer img {
+    margin: 50px;
+    width: 300px;
+    border-radius: 50%;
+}
+#indexPageContainer{
+    align-items: center;
+}
+.infoPanel {
+    background-color: rgba(260, 260, 260, .3);
+    width: 65vw;
+    border-radius: 10px;
+    margin:15px;
+    padding:10px;
+}
+.videoLink{
+    background-color: rgba(10, 10, 10, .9);
+    padding: 6px;
+    margin: 6px;
+    border-radius: 5px;
+}
+.videoLink:link {
+    color: white;
+}
+.videoLink:visited {
+    color: white;
+}
+.videoLink:hover {
+    color: white;
+}
+.videoLink:active {
+    color: white;
+}
+/* Style for the contact page    */
+#socialIcon {
+    width:100px;
+    margin: 0px;
+    border-radius: 0%;
+}
+
+/* style for the footer on all pages */
+
